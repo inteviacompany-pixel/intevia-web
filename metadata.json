@@ -1,0 +1,6 @@
+{
+  "name": "INTEVIA - RFID, IoT & Logistics Supply Chain Solutions",
+  "description": "เว็บไซต์บริษัท INTEVIA ผู้นำด้านนวัตกรรม RFID, IoT Devices, ระบบคลังสินค้า โลจิสติกส์ และงานด้านวิศวกรรม Engineering ด้าน Improvement & Productivity",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

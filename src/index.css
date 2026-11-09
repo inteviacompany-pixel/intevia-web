@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-intevia-dark: #0D1B2A;
+    --color-intevia-card: #132238;
+    --color-intevia-border: #21354F;
+    --color-intevia-blue: #1976FF;
+    --color-intevia-muted: #6B7280;
+    --color-intevia-gray: #D1D5DB;
+    --color-intevia-light: #F5F7FA;
+  }
+
+  body {
+    font-family: 'Prompt', 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #0D1B2A;
+    color: #F5F7FA;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Plus Jakarta Sans', 'Prompt', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono-numbers {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0D1B2A;
+}
+::-webkit-scrollbar-thumb {
+  background: #21354F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1976FF;
+}
